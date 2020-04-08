@@ -1,0 +1,17 @@
+div.intro-box {
+  background-color: black;
+  width: 100%;
+  background-image: url("https://cdn.glitch.com/e62d825b-4f3f-49cc-a1ef-10f5992b9553%2Fpencil-on-white-paper-159752.jpg?v=1585948510599")
+}
+
+th {
+  width: 33.3%;
+}
+
+div.dhhs-intro {
+  width: 80%;
+}
+
+body {
+  line-height: 2.5em;
+}
