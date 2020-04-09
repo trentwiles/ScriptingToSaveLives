@@ -32,3 +32,14 @@ div.dhhs-intro {
 body {
   line-height: 2.5em;
 }
+div.box{
+  background-color: black;
+}
+h2.featured-intro{
+  font-size: 38px;
+  color: white;
+}
+h2.smaller-statement{
+  font-size: 35px;
+  color: white;
+}
