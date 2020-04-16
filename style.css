@@ -98,3 +98,8 @@ footer {
     width: 100%;
   }
 }
+#actionvideo{
+  width: 100%;
+  height: auto;
+  transition: 4s;
+}
