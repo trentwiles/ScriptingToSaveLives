@@ -1,131 +1,194 @@
 <!--
 
-Hello Developers! This is just a basic project to spark ideas.
-Ideas that you contribute will be added to this. When the changes are
+Hello Developers! This is currently the homepage.
+Ideas that you contribute will be added to this (if approved). When the changes are
 approved and work, the website will be exported to GitHub.
 
+PLEASE ONLY USE STATIC CODE! We need to do this because our hosting
+provider only supports static sites. If you would like to use a backend
+language, we may be able to host it on Glitch and make it a subdomain.
+Please talk to us if you plan to do that.
+
+- Riverside Rocks
 
 -->
 <!DOCTYPE html>
 <html>
-  <title>Scripting to Save Lives</title>
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.7/css-mint.min.css"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="/style.css" />
-  <header class="cm-header inverted">
-    <div class="cm-logo cm-text-large">
-      <a href="/" style="font-size:45px;">Scripting to Save Lives</a>
+  <head>
+    <title>Scripting to Save Lives</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.7/css-mint.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-154738521-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-154738521-4");
+    </script>
+  </head>
+  <body>
+    <header class="cm-header inverted">
+      <div class="cm-logo cm-text-large">
+        <a href="/" style="font-size:45px;font-family:'Inter', sans-serif;"
+          ><img
+            src="https://cdn.glitch.com/e3ddcd7c-0b44-4e9f-a859-f7b436ca0bba%2Fimage.png?v=1586873256870"
+            id="logo"
+          />Scripting to Save Lives</a
+        >
+      </div>
+      <nav class="cm-nav">
+        <ul>
+          <li>
+            <a href="/donate.html" style="text-decoration:none;font-size:25px;"
+              >Donate</a
+            >
+          </li>
+          <li>
+            <a href="/code.html" style="text-decoration:none;font-size:25px;"
+              >Code</a
+            >
+          </li>
+          <li>
+            <a href="/about.html" style="text-decoration:none;font-size:25px;"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="intro-box">
+      <center>
+        <br />
+        <br />
+        <h1 id="big-statement">
+          Scripting to Save Lives
+        </h1>
+        <br />
+        <h2 class="smaller-statement">
+          <i>Learn how to help today.</i>
+        </h2>
+        <br />
+
+        <br />
+        <br />
+        <br />
+      </center>
     </div>
-    <nav class="cm-nav">
-      <ul>
-        <li>
-          <a href="/donate.html" style="text-decoration:none;font-size:25px;"
-            >Donate</a
-          >
-        </li>
-        <li>
-          <a href="/code.html" style="text-decoration:none;font-size:25px;"
-            >Code</a
-          >
-        </li>
-        <li>
-          <a href="/about.html" style="text-decoration:none;font-size:25px;"
-            >About</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <div class="intro-box">
     <center>
-      <br />
-      <br />
-      <h1 id="big-statement">
-        Scripting to Save Lives
-      </h1>
-      <br />
+      <!-- These are the ways to help -->
 
-      <br />
+      <br /><br /><br />
 
+      <div class="impressive-square">
+        <img
+          class="impressive-image"
+          src="https://cdn.glitch.com/8faceb1e-d174-438f-91d5-8835cbbc3765%2Fcode-1557582_1280.jpg?v=1587042906390"
+          width="100%"
+        />
+        <div class="impressive-body">
+          Send us HTML, CSS, and JavaScript and we will do our best to implement
+          it into the project. <br /><br />
+          <a href="https://developers.scriptingtosavelives.com"
+            ><button class="cm-btn success get-started">
+              Get Started
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div class="impressive-square">
+        <img
+          class="impressive-image"
+          src="https://cdn.glitch.com/8faceb1e-d174-438f-91d5-8835cbbc3765%2Fdownload.jpeg?v=1587042730643"
+          width="100%"
+        />
+        <div class="impressive-body">
+          Donate money to hospitals and charities in need. <br /><br />
+          <a href="/donate.html"
+            ><button class="cm-btn success get-started">Donate</button></a
+          >
+        </div>
+      </div>
+
+      <div class="impressive-square">
+        <img
+          class="impressive-image"
+          src="https://cdn.glitch.com/8faceb1e-d174-438f-91d5-8835cbbc3765%2Ffaq.png?v=1587043025622"
+          width="100%"
+        />
+        <div class="impressive-body">
+          Learn more about the project and how it works. <br /><br />
+          <a href="https://developers.scriptingtosavelives.com"
+            ><button class="cm-btn success get-started">
+              Get Started
+            </button></a
+          >
+        </div>
+        <br />
+      </div>
       <br />
       <br />
       <br />
-      
+      <div class="impressive-square">
+        <img
+          class="impressive-image"
+          src="https://cdn.glitch.com/8faceb1e-d174-438f-91d5-8835cbbc3765%2Fbloomberg-chart-charts-finance-1520777.jpg?v=1587042664190"
+          width="100%"
+        />
+        <div class="impressive-body">
+          View our COVID-19 Stats Page. <br /><br />
+          <a href="https://covid19.riverside.rocks"
+            ><button class="cm-btn success get-started">
+              Get Started
+            </button></a
+          >
+        </div>
+      </div>
+      <!-- end common help -->
     </center>
-  </div>
-  <center>
-    <!-- These are the ways to help -->
-    <table>
-      <tr>
-        <th>
-          <div class="cm-card">
-            <img
-              src="https://cdn.glitch.com/e62d825b-4f3f-49cc-a1ef-10f5992b9553%2Fdhhsnewslogo.jpg?v=1585949283077"
-              class="cm-resp-img"
-              style="width:100px;height:100px;"
-            />
-            <div class="cm-card-body">
-              Send us HTML, CSS, and JavaScript and we will do are best to
-              implament it into the project.
-            </div>
-            <div class="cm-card-footer">
-              <a href="https://developers.scriptingtosavelives.com"
-                ><button class="cm-btn success get-started">
-                  Get Started
-                </button></a
-              >
-            </div>
-          </div>
-        </th>
-        <th>
-          <div class="cm-card">
-            <img
-              src="https://cdn.glitch.com/e62d825b-4f3f-49cc-a1ef-10f5992b9553%2Fcomputer-monitor-coding-programming-2194062.jpg?v=1585949451493"
-              class="cm-resp-img"
-              style="width:100px;height:100px;"
-            />
-            <div class="cm-card-body">
-              Donate money to hospitals in need.
-            </div>
-            <div class="cm-card-footer">
-              <a href="/donate.html"
-                ><button class="cm-btn success get-started">Donate</button></a
-              >
-            </div>
-          </div>
-        </th>
-        <th>
-          <div class="cm-card">
-            <img
-              src="https://cdn.glitch.com/e62d825b-4f3f-49cc-a1ef-10f5992b9553%2Fquestion-mark.jpg?v=1585949561505"
-              class="cm-resp-img"
-              style="width:100px;height:100px;"
-            />
-            <div class="cm-card-body">
-              Learn more about the project.
-            </div>
-            <div class="cm-card-footer">
-              <a href="/about.html"
-                ><button class="cm-btn success get-started">
-                  Read More
-                </button></a
-              >
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
 
-    <!-- end common help -->
-  </center>
-  <p>
-    Photo by Miguel Á. Padriñán from Pexels
-  </p>
+    <br /><br /><br />
+
+    <footer class="cm-footer">
+      <p id="image-credits">
+        Photo by Miguel Á. Padriñán from Pexels
+      </p>
+
+      <center>
+        <p id="footer-credits">
+          © 2020 <br />
+          ScriptingToSaveLives.com
+        </p>
+      </center>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/khalby786/ImpressiveSquare.js@latest/script.js"></script>
+    <script>
+      const s2slsquare = {
+        class: "impressive-square",
+        images: "impressive-image",
+        content: "impressive-body",
+        width: "30%",
+        height: "100%",
+        back: "white",
+        fore: "black"
+      };
+      square.new(s2slsquare);
+    </script>
+  </body>
 </html>
