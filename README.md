@@ -1,7 +1,7 @@
 # Scripting to Save Lives
 
 Our full post and how to help can be found <a href="https://support.glitch.com/t/scripting-to-save-lives-we-need-your-help/21753">here.</a>
-It's time that us coders reach out and help the world.
+It's time that us coders reach out and help the world battle COVID-19. <a href="https://scriptingtosavelives.com">Learn more.</a>
 
 # Notes about contributions
 
