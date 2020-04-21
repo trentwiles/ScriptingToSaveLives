@@ -1,44 +1,37 @@
-# Scripting to Save Lives
+Welcome to Glitch
+=================
 
-Our full post and how to help can be found <a href="https://support.glitch.com/t/scripting-to-save-lives-we-need-your-help/21753">here.</a>
-It's time that us coders reach out and help the world battle COVID-19. <a href="https://scriptingtosavelives.com">Learn more.</a>
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-# Notes about contributions
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-Hello Developers! This is currently the homepage.
-Ideas that you contribute will be added to this (if approved). When the changes are
-approved and work, the website will be exported to GitHub.
+Find out more [about Glitch](https://glitch.com/about).
 
-**What we need coded:**
 
-- Cosmetic updates to any page.
-- General page improvements.
-- Fixing issues
-- Anything that would make the website better in your opinion.
+Your Project
+------------
 
-**PLEASE ONLY USE STATIC CODE: This includes:**
+### ← README.md
 
-- Pure HTML
-- Pure CSS
-  - CSS Libraries
-- JavaScript (This does not include Node.js)
-  - JavaScript Libraries (This does not include NPM packages)
+That's this file, where you can tell people what your cool website does and how you built it.
 
-We need to do this because our hosting
-provider only supports static sites. If you would like to use a backend
-language, we may be able to host it on Glitch and make it a subdomain.
-Please talk to us if you plan to do that!
+### ← index.html
 
-**How to submit your code:**
+Where you'll write the content of your website. 
 
-Option One (the best way): Fork this repo and submit a pull request
+### ← style.css
 
-Option Two (the ok way): Upload code on our <a href="https://developers.scriptingtosavelives.com/code/">website.</a>
+CSS files add styling rules to your content.
 
-**Usefull links**
+### ← script.js
 
-<a href="https://scriptingtosavelives.com">Live Project (our website)</a>
-<br>
-<a href="https://support.glitch.com/t/mega-thread-scriptingtosavelives-com-we-need-your-help/21753">Forum Post</a>
+If you're feeling fancy you can add interactivity to your site with JavaScript.
 
-~ Riverside Rocks
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
