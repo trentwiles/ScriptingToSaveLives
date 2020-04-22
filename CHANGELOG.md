@@ -6,3 +6,4 @@
 4-15 <br>- Reverted the "remove .html endings" update because something went wrong.
 
 4-16 <br>- Updated the homepage and the comment on the homepage.
+4-17 <br>- Changed some style.css for /help
