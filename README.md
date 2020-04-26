@@ -1,5 +1,5 @@
 # Scripting to Save Lives
-# Note, this repo is deprecated. To see the latest repo, please visit <a href="github.com/scriptingtosavelives/scriptingtosavelives">this link.</a>
+# Note, this repo is deprecated. To see the latest repo, please visit <a href="https://github.com/scriptingtosavelives/scriptingtosavelives">this link.</a>
 Our full post and how to help can be found <a href="https://support.glitch.com/t/scripting-to-save-lives-we-need-your-help/21753">here.</a>
 It's time that us coders reach out and help the world battle COVID-19. <a href="https://scriptingtosavelives.com">Learn more.</a>
 
